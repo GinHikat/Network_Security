@@ -10,5 +10,8 @@ class NetworkSecurityException(Exception):
         self.file_name = exc_tb.tb_frame.f_code.co_filename
         
     def __str__(self):
-        return "Error occured in file [{0}] line [{1}] message [{2}]".format(self.file_name, self.lineno, str(self.error_message))
+        return "Error occured in file [{0}] line [{1}] message [{2}]".format(self.file_name, 
+                                                                             self.lineno, 
+                                                                             str(self.error_message))
+        
     
