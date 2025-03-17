@@ -44,8 +44,7 @@ class DataTransformation:
         
         except Exception as e:
             raise NetworkSecurityException(e, sys)
-        
-    
+         
     def init_data_transform(self) -> DataTransformationArtifact:
         logging.info("Enter data transformation")
         try:
