@@ -1,6 +1,6 @@
 from network_security.components.data_ingestion import DataIngestion
 from network_security.components.data_validation import DataValidation
-# from network_security.components.data_transformation import DataTransformation
+from network_security.components.data_transformation import DataTransformation
 from network_security.exception.exception import NetworkSecurityException
 from network_security.logging.logger import logging
 from network_security.entity.config_entity import DataIngestionConfig,DataValidationConfig,DataTransformationConfig
@@ -27,12 +27,13 @@ if __name__=='__main__':
         data_validation_artifact=data_validation.init_data_valid()
         logging.info("data Validation Completed")
         print(data_validation_artifact)
-        # data_transformation_config=DataTransformationConfig(trainingpipelineconfig)
-        # logging.info("data Transformation started")
-        # data_transformation=DataTransformation(data_validation_artifact,data_transformation_config)
-        # data_transformation_artifact=data_transformation.initiate_data_transformation()
-        # print(data_transformation_artifact)
-        # logging.info("data Transformation completed")
+        
+        data_transformation_config=DataTransformationConfig(trainingpipelineconfig)
+        logging.info("data Transformation started")
+        data_transformation=DataTransformation(data_validation_artifact,data_transformation_config)
+        data_transformation_artifact=data_transformation.init_data_transform()
+        print(data_transformation_artifact)
+        logging.info("data Transformation completed")
 
         # logging.info("Model Training sstared")
         # model_trainer_config=ModelTrainerConfig(trainingpipelineconfig)

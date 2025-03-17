@@ -1,0 +1,93 @@
+Abnormal_URL:
+  drift_status: false
+  p_value: 0.9999789473529757
+DNSRecord:
+  drift_status: false
+  p_value: 0.9371808063360356
+Domain_registeration_length:
+  drift_status: false
+  p_value: 0.5828181003962636
+Favicon:
+  drift_status: false
+  p_value: 0.9999999985868919
+Google_Index:
+  drift_status: false
+  p_value: 1.0
+HTTPS_token:
+  drift_status: false
+  p_value: 0.9962125273091531
+Iframe:
+  drift_status: false
+  p_value: 1.0
+Links_in_tags:
+  drift_status: false
+  p_value: 0.9999865833269358
+Links_pointing_to_page:
+  drift_status: false
+  p_value: 0.8043509301542758
+Page_Rank:
+  drift_status: false
+  p_value: 1.0
+Prefix_Suffix:
+  drift_status: false
+  p_value: 0.9999999976335158
+Redirect:
+  drift_status: false
+  p_value: 1.0
+Request_URL:
+  drift_status: false
+  p_value: 1.0
+Result:
+  drift_status: false
+  p_value: 0.9999999999999661
+RightClick:
+  drift_status: false
+  p_value: 1.0
+SFH:
+  drift_status: false
+  p_value: 0.9999604161830994
+SSLfinal_State:
+  drift_status: false
+  p_value: 0.28319565172611705
+Shortining_Service:
+  drift_status: false
+  p_value: 0.9999934998670769
+Statistical_report:
+  drift_status: false
+  p_value: 0.9971570562998898
+Submitting_to_email:
+  drift_status: false
+  p_value: 0.9779724030212162
+URL_Length:
+  drift_status: false
+  p_value: 0.9661740119369181
+URL_of_Anchor:
+  drift_status: false
+  p_value: 0.9996310245366616
+age_of_domain:
+  drift_status: false
+  p_value: 0.7831506769867288
+double_slash_redirecting:
+  drift_status: false
+  p_value: 0.9988007988119523
+having_At_Symbol:
+  drift_status: false
+  p_value: 0.9999999998526161
+having_IP_Address:
+  drift_status: false
+  p_value: 1.0
+having_Sub_Domain:
+  drift_status: false
+  p_value: 0.2117771938093801
+on_mouseover:
+  drift_status: false
+  p_value: 1.0
+popUpWidnow:
+  drift_status: false
+  p_value: 0.9999997539842138
+port:
+  drift_status: false
+  p_value: 0.9891116895341471
+web_traffic:
+  drift_status: false
+  p_value: 0.9999865833269358
