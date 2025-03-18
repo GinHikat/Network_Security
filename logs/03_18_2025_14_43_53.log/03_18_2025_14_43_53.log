@@ -1,0 +1,19 @@
+[2025-03-18 14:44:17,508] 36 root - INFO - Start data ingestion
+[2025-03-18 14:44:43,368] 74 root - INFO - Performed train test split on the dataframe
+[2025-03-18 14:44:43,368] 76 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2025-03-18 14:44:43,368] 84 root - INFO - Exporting train and test file path.
+[2025-03-18 14:44:43,755] 93 root - INFO - Exported train and test file path.
+[2025-03-18 14:44:43,760] 40 root - INFO - Data Ingestion completed: DataIngestionArtifact(train_path='Artifacts\\03_18_2025_14_43_53\\Data_Ingestion\\ingested\\train.csv', test_path='Artifacts\\03_18_2025_14_43_53\\Data_Ingestion\\ingested\\test.csv')
+[2025-03-18 14:44:43,775] 49 root - INFO - Init data Validation
+[2025-03-18 14:44:43,978] 25 root - INFO - Required number of columns: 2
+[2025-03-18 14:44:43,978] 26 root - INFO - DataFrame has 31 columns
+[2025-03-18 14:44:43,978] 25 root - INFO - Required number of columns: 2
+[2025-03-18 14:44:43,979] 26 root - INFO - DataFrame has 31 columns
+[2025-03-18 14:44:44,647] 49 root - INFO - Enter data transformation
+[2025-03-18 14:44:44,647] 51 root - INFO - Starting transformation
+[2025-03-18 14:44:44,767] 36 root - INFO - Enter Transformation part
+[2025-03-18 14:44:44,767] 40 root - INFO - Initialized KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-03-18 14:44:44,794] 41 root - INFO - Saving object of mainUtil class
+[2025-03-18 14:44:44,799] 45 root - INFO - End the saving
+[2025-03-18 14:44:44,800] 41 root - INFO - Saving object of mainUtil class
+[2025-03-18 14:44:44,805] 45 root - INFO - End the saving
