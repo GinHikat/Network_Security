@@ -7,3 +7,4 @@ dill
 pyaml
 scikit-learn
 pymongo[srv]==3.12
+mlflow
