@@ -7,6 +7,7 @@ The Project is fully and comprehensively structured with Exception handling, Log
   - Transforming Data using sklearn transformation pipeline
   - Data Validation
   - Model Training
+    
 The project is also packed with data_training pipeline, including all steps above.
 Besides, all steps will produce they own tracked logs and output artifact, consisting of output file and pickled applications
 
